@@ -1,6 +1,8 @@
 package com._02_Variables._05_TiposReferenciaObjeto;
 
 public class _03_WrapperInteger {
+        public static Integer valorDefecto;
+
     public static void objetoInteger() {
         Integer intObject1 = Integer.valueOf("3");
         Integer intObject2 = Integer.valueOf(3);
@@ -28,5 +30,9 @@ public class _03_WrapperInteger {
         System.out.println("intPrimitivo2 = " + intPrimitivo2);
         System.out.println("intPrimitivo3 = " + intPrimitivo3);
         System.out.println("valorTV = " + valorTV);
+
+        System.out.println("\n========== VALOR POR DEFECTO ==========");
+        System.out.println("Valor Por Defecto Método = " + _03_WrapperInteger.valorDefecto);
     }
+
 }
