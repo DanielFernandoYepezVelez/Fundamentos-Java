@@ -1,0 +1,6 @@
+VALORES POR DEFECTO =>
+
+Es Muy Importante El Valor Por Defecto De
+Los Valores, Por Ejemplo, Para Los Valores
+De Tipo Primitivo Es 0, Pero Para Los De
+Tipo Objeto Es NULL.

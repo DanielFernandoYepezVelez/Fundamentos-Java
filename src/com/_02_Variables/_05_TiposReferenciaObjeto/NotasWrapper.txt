@@ -1,0 +1,28 @@
+COMPARACIÓN (Condicionales) =>
+
+Puedo Utilizar Todos Los Operadores Relacionales
+Con Los Wrappers Y Funcionan Correctamente, Por Que
+De Manera Implicita, Estos Envoltorios Aplican El
+AutoUnBoxing Es Decir, Pasan De Objeto A Primitivo
+Solo Para Realizar La Relaciòn Del Respectivo
+Operador; Excepto El Operador (==) Que Este
+Si Compara Por Referencia.
+
+Tenemos Dos Opciones: Comparar Por Valor
+Con El (equals) o Comparar El Valor Con El
+(==) Pero Los Wrapper Se Les Aplica Un
+AutoUnBoxing, Explicito Con El Mètodo
+intValue() o Para Su Respectivo Método Primitivo
+(byteValue, shortValue, etc).
+--------------------------
+
+Con El Wrapper Boolean El (==) Compara Por Valor
+Y No Por Referencia; Para Tener En Cuenta.
+--------------------------
+
+COMPARABLE
+La Interface Comparable Se Puede Utilizar
+En Los Elementos Que Tengan Un Tipo De Dato
+Wrapper, En Los Tipos De Datos Primitivos
+No Es Posible.
+---------------------------

@@ -1,0 +1,20 @@
+La Inmutabilidad Java Es Muy Importante
+Para Los Objetos De Tipo Wrapper Y Primitivos
+Ya Que Siempre Estan Retornando
+Una Nueva Instancia, Por Ende,
+Los Valores Pasados Por Parametros
+O Argumentos No Cambian Su Valor
+Inicial, Si No Que Definen Una
+Nueva Instancia.
+
+"Muy Diferente A JavaScript,
+Ya Que Los Parametros O Argumentos
+Son Pasados Por Refencia Y Cambian
+El Valor Inicial De Un Objeto."
+
+En Java Esto Es Dieferente, Cuando
+Creamos Nuestras Propias Clases,
+Ya Que Los Argumentos Pasados
+A Los Parametros Definidos Con
+Anterioridad, Si Son Mutables Y Permiten
+Afectar El Valor Inicial De Un Objeto.

@@ -1,0 +1,23 @@
+VALORES POR DEFECTO =>
+
+Los Valores Por Defecto De Los Tipos De Datos
+Primitivos Se Inicializan En 0 O Si Son De
+Punto Flotante Se Inicializan En 0.0, Siempre
+Y Cuando Sean Variables Globales, Es Decir,
+Que Pertenezcan A La Clase, Pero Si Son Locales
+O Pertenecen A Un Mètodo En Particular Incluyendo
+El Mètodo Main Se Deben Inicializar, Por Que Si No
+Muestra Un Error De Inicializaciòn Al No Tener
+Ningùn Valor Interno En El Identificador Creado.
+----------------------------
+
+COMPARACIÓN (Condicionales) =>
+Los Tipos De Datos Primitivos No Se Pueden
+Comparar Con La Palabra null, Ejemplo:
+
+int nota = 0;
+if(nota == null) {}  ===== ERROR =====
+
+Pero Si El Tipo De Dato Es Wrapper Si Es
+Posible Comparar Con La Palabra null.
+---------------------------
