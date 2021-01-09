@@ -10,6 +10,7 @@ Inmutables.
 Los String Son Inmutables, Es Decir, El Valor Definido Inicialmente
 No Se Puede Cambiar. Un Objeto String Siempre Retorna Una Nueva
 Instancia: Un Nuevo Objeto.
+------------------------------------------------------------------------
 
 MÉTODOS CLASE STRING
 int length(): Longitud De Caracteres.
@@ -50,3 +51,4 @@ Indicado.
 
 String[] split(String patron): Divide La Cadena En Varias Subcadenas Utilizando
 El Patròn Indicado Como Separador.
+--------------------------------------------------------------------------------

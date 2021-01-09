@@ -1,5 +1,11 @@
-COMPARACIÓN (Condicionales) =>
+VALORES POR DEFECTO =>
+Los Valores Por Defecto De Los Tipos De Datos
+Wrapper U Objeto Se Inicializan Automaticamente En NULL
+Siempre Y Cuando Sean Variables Globales, Es Decir,
+Que Pertenezcan A La Clase.
+------------------------------------------------------------------------
 
+COMPARACIÓN (Condicionales) =>
 Puedo Utilizar Todos Los Operadores Relacionales
 Con Los Wrappers Y Funcionan Correctamente, Por Que
 De Manera Implicita, Estos Envoltorios Aplican El
