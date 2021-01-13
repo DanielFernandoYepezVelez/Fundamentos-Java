@@ -1,0 +1,7 @@
+Java Es Un Lenguaje De Programación "COMPILADO"
+A El Archivo BYTE-CODE ".class" Y Posteriormente
+Es "INTERPRETADO" Por El "Java Runtime Enviroment" O
+"Java Virtual Machine" Dependiendo Del Sistema Operativo
+O La Plataforma Donde Se Esta Corriendo O Ejecutando
+Dicho Programa, Por Tal Motivo, Se Dice Que Java
+Es MULTIPLATAFORMA, Gracias A Su (JRE O JVM).
