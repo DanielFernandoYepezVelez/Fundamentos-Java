@@ -31,7 +31,7 @@ Con El Wrapper Boolean El (==) Compara Por Valor
 Y No Por Referencia; Para Tener En Cuenta.
 ------------------------------------------------------------------------
 
-COMPARABLE
+COMPARABLE (compareTo) =>
 La Interface Comparable Se Puede Utilizar
 En Los Elementos Que Tengan Un Tipo De Dato
 Wrapper, En Los Tipos De Datos Primitivos
