@@ -1,0 +1,4 @@
+ARREGLOS =>
+Los Valores De Los Arreglos Son De Tipo Referencia.
+Es decir, Si Se Realiza Un Cambio En En Indice
+De Ese Valor, Ese Valor Va Sufrir Un Cambio.

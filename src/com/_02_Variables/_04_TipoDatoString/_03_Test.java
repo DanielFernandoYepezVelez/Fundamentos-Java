@@ -3,7 +3,7 @@ package com._02_Variables._04_TipoDatoString;
 public class _03_Test {
     public static void Rendimiento() {
         String a = "a";
-        String b = "b";
+        // String b = "b";
         String c = a;
 
         StringBuilder sb = new StringBuilder(a);

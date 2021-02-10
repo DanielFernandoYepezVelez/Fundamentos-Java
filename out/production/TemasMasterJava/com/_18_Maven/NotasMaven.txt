@@ -1,0 +1,32 @@
+¿QUE ES MAVEN?
+Es una herramienta de software que sirve para
+la construcción y gestión de proyectos JAVA Y
+fue creado en el año del 2002.
+
+-----------------------------------------------
+Esta herramienta es muy similar al package.json
+cuando se trabaja con proyectos de npm.
+-----------------------------------------------
+
+MVNREPOSITORY(Repositorio Central De Maven)
+Es un repositorio que esta en la nube para
+descargar las dependencias.
+
+POM.xml
+Es el archivo de configuración de maven
+donde esta la versión que se utiliza,
+las dependencias que necesita el
+proyecto, entre otras caracteristicas.
+
+PARA CREAR O GENERAR EL PROYECTO CON MAVEN:
+mvn archetype:generate
+
+ESTRUCTURA DE TU PROYECTO Y LO VA A DIFERENCIAR
+CON OTROS PORYECTOS:
+-DgroupId=com.primerproyectomaven.example
+
+ES EL NOMBRE DEL COMPILADO O DEL PROYECTO:
+-DartifactId=my-app-simple
+
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DarchetypeVersion=1.4
