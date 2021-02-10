@@ -1,6 +1,10 @@
 VALORES POR DEFECTO =>
 Es Muy Importante El Valor Por Defecto De
-Los Valores, Por Ejemplo, Para Los Valores
-De Tipo Primitivo Es 0, Pero Para Los De
-Tipo Objeto Es NULL.
+Las Variables, Por Ejemplo, Para Las Variables
+De Tipo Primitivo Es 0, Pero Para Las De
+Tipo Objeto Es NULL Siempre Y Cuando Esten
+Definidas De Forma Global, Pero, Si Estan En Un
+Método Local Incluyendo El Método Main Se
+Deben Inicializar, De Lo Contrario El Programa
+No Se Deja Ejecutar Y Muestra Un Error De Inicialización.
 ------------------------------------------------------------------------
