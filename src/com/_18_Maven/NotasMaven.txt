@@ -1,4 +1,4 @@
-CREAR PROJECTO MAVEN:
+CREAR PROJECTO MAVEN Y TODA LA DOCUMENTACIÓN:
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 MVN REPOSITORY:
@@ -72,3 +72,33 @@ para que se ejecute.
 PARA ELIMINAR LA CARPETA TARGET:
 mvn clean.
 --------------------------------------
+
+MAVEN DESCARGADOR EN LOCAL Y MAVEN EMBEBIDO EN EL IDE:
+C:\Users\danie\Maven\apache-maven-3.6.3\conf => Esta
+es la ruta para ejecutarlo de forma local.
+
+Si no dejo la construcción de maven por parte del
+IDE con los siguientes comandos:
+
+Ctrl + Alt + s
+Build
+Build Tools
+Maven
+
+Intellij Idea me entrega el ciclo de vida
+de maven o gradle también, es decir,
+tiene los comandos para ejecutar como:
+
+mvn clean
+mvn compile
+
+lo que se puede hacer por la linea de
+comandos, el ide me ayuda con eso.
+--------------------------------------
+
+COMANDO mvn install:
+Me sirve para trabajar con las clases de otro
+proyecto pero que tambien este trabajando
+con maven. Y cada cambio que pase en la clase
+que me estoy trayendo del otro proyecto
+debo actualizar.
