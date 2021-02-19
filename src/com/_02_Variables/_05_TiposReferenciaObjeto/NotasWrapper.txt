@@ -29,6 +29,9 @@ intValue() o Para Su Respectivo Método Primitivo
 
 Con El Wrapper Boolean El (==) Compara Por Valor
 Y No Por Referencia; Para Tener En Cuenta.
+
+Con El Wrapper Character El (==) Compara Por Valor
+Y No Por Referencia; Para Tener En Cuenta.
 ------------------------------------------------------------------------
 
 COMPARABLE (compareTo) =>
