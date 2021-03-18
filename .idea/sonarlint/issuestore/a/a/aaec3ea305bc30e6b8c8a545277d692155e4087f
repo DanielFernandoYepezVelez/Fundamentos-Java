@@ -1,0 +1,19 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8¤Ó»Ç/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€®Œãøÿÿÿÿ
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(·ÈÅùÿÿÿÿ8òóÎÇ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Š­°©8ÙıÆÇ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ô¥»ƒıÿÿÿÿ8”¯²Ç/
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8¯€¼Ç/
+~
+java:S1192"aDefine a constant instead of duplicating this literal "--------------------------------" 5 times.(òÔÇÍ8¤Ó»Ç/
+k
+java:S1192"IDefine a constant instead of duplicating this literal "Fernando" 3 times.(Ô¥»ƒıÿÿÿÿ8Í‰¿Ç/
+t
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(°Ô•şÿÿÿÿ8µ£Ç/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŠåÎÿÿÿÿÿ8Î©Ç/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8Á¶»Ç/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8ò»Ç/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8ÂĞÇ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§—‚ó8µ£Ç/
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(©Ê¤Ü8Ëµ¼Ç/
