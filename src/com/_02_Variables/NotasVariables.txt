@@ -7,4 +7,3 @@ Definidas De Forma Global, Pero, Si Estan En Un
 Método Local Incluyendo El Método Main Se
 Deben Inicializar, De Lo Contrario El Programa
 No Se Deja Ejecutar Y Muestra Un Error De Inicialización.
-------------------------------------------------------------------------

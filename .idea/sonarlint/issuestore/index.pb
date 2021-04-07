@@ -23,3 +23,5 @@ s
 Csrc/com/_19_ExpresionesLambda/_05_InterfazFuncional/Aritmetica.java,3\0\30407f7194e5c30b50a79a9ef8db6f97a9558bd9
 m
 =src/com/_19_ExpresionesLambda/_05_InterfazFuncional/Main.java,3\f\3fe91b53c9e9344910645ace17fa611c6d72296d
+X
+(src/com/_20_ApiStream/NotasApiStream.txt,6\4\64619559ff109742b9147d6c23002a59b68984f8
