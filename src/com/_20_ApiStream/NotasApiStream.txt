@@ -1,0 +1,33 @@
+¿Que Son Los Streams?
+Combina Las Mejores Ideas Del Iterator Y La Programación
+Funcional Para Implementar Flujos De Datos.
+
+Lo Podemos Definir Como Una Secuencia De Datos Que
+Provienen Desde Una Fuente De Datos, Tipicamente
+De Una Lista O Una Collection De Java,
+Cualquiera Que Implemente La Interface Collection
+(Set, List) O Un Arreglo.
+
+La Api Stream() Es Una Especie De Tuberia O
+Aspersor Donde Los Datos De La Fuente Original
+Se Puedan Transformar, Recorrer, Filtrar Entre
+Otras Muchas Caracteristicas, Gracias A Los
+Operadores, Que Trabajan En Conjunto Con La
+Api Stream().
+
+Caracteristicas:
+- Crea Flujos De Datos Continuos Que Contienen Operadores
+  Para Procesar Secuencias De Elementos.
+
+- Los Operadores Reducen Notablemente Las Tareas De Transformaciones.
+
+- Transforma Y Compone Flujos Con Los Operadores map, filter, concat,
+  distinct(), flatmap, sorted, foreach, reduce, etc.
+
+- Pueden Ser Creados Desde Listas, Arreglos, Rangos.
+
+- Son Inmutables. (Cuando Se Utiliza Algún Operador
+Se Retorna Una Nueva Instancia, Sin Modificar La Fuente
+De Datos Original).
+
+- Concurrencia Hecho Fácil.

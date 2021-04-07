@@ -1,23 +1,0 @@
-
-U	java:S106'"9Replace this use of System.out or System.err by a logger.(ÉÚƒÏ8 ÌŞÅ/
-U	java:S106?"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8ßÔ•Æ/
-U	java:S106."9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8…Ç…Æ/
-N
-java:S1612",Replace this lambda with a method reference.(»ë¨ëüÿÿÿÿ8Í¯ÊÅ/
-I
-java:S1602",Remove useless curly braces around statement(ˆ„û†8Í¯ÊÅ/
-U	java:S106#"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8îû„Æ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(»ë¨ëüÿÿÿÿ8Í¯ÊÅ/
-X	java:S125&"<This block of commented-out lines of code should be removed.(£Ë¡ˆ8áŞÅ/
-w
-java:S1192"ZDefine a constant instead of duplicating this literal "-------------------------" 4 times.(ğÔ‘¬8…Ç…Æ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(´ãéùÿÿÿÿ8Í¯ÊÅ/
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(ç®ÅÈ8Ä”•Æ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8Ú£ƒÆ/
-y
-java:S4276"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(ˆ„û†8Í¯ÊÅ/
-N
-java:S16023",Remove useless curly braces around statement(îşÿ®ûÿÿÿÿ8ëıûÅ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ê¢†îşÿÿÿÿ8Í¯ÊÅ/
-U	java:S1068"9Replace this use of System.out or System.err by a logger.(ç®ÅÈ8ßŠÿÅ/
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÒƒÙŸøÿÿÿÿ
