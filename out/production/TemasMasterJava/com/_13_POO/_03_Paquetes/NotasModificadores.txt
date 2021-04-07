@@ -1,6 +1,0 @@
-Public => Puede Ser Accedido Desde Cualquier Parte De La Aplicación.
-Default => Puede Ser Accedido Desde Las Clases Que Estén En El Mismo Paquete.
-Protected => Puede Ser Accedido Desde Las Clases Que Estén En El Mismo Paquete Y
-             Hereden De Una Clase Padre.
-Private => Solo Pueden Ser Accedidos Desde La Misma Clase, Se Suelen Utilizar, Los
-           Métodos Getters Y Setters Para Este Tipo De Modificadores De Acceso.
