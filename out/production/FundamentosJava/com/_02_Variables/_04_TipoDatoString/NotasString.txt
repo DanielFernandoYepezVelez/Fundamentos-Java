@@ -1,0 +1,54 @@
+CLASE STRING
+String nombreLiteral = "Daniel Fernando Yepez Vélez";
+String nombreInstancia = new String("Daniel Fernando Yepez Vélez");
+
+NOTA => Las Dos Instancias Creadas Anteriormente Son Válidas De Las
+Dos Formas, Pero Al Mismo Tiempo Son Diferentes, Por Que Apuntan A
+Diferentes Espacios En Memoria, Ya Que Los String En Java Son
+Inmutables.
+
+Los String Son Inmutables, Es Decir, El Valor Definido Inicialmente
+No Se Puede Cambiar. Un Objeto String Siempre Retorna Una Nueva
+Instancia: Un Nuevo Objeto.
+------------------------------------------------------------------------
+
+MÉTODOS CLASE STRING
+int length(): Longitud De Caracteres.
+
+boolean equals(String b): Compara Si Ambos Objetos Son Iguales, Por Valor.
+
+boolean equalsIgnoreCase(String b) Compara Si Ambos Objetos Son Iguales,
+Por Valor, Independiente De Mayúsculas Y/O Minúsculas.
+
+int compareTo(String b): Compara Contra La Cadena Del Parametro, Devolviendo:
+ - Un Valor Negativo Si La Cadena Es Anterior A b.
+ - Cero (0) Si La Cadena Es Igual A b.
+ - Un Valor Positivo Si La Cadena Es Posterior A b.
+
+String trim(): Crea Un Nuevo Objeto Eliminando El Espacio En Blanco Que Pudiera
+Haber Al Principio O Al Final.
+
+char charAt(int posicion): Extrae Un Cáracter En La Posición Indicada En El
+Parametro.
+
+char[] toCharArray(): Convierte La Cadena En Un Arreglo De Caracteres.
+
+String substring(int a, int b): Extrae la sub-cadena entre las posiciones a y b.
+
+String substring(int desde): Extrae la sub-cadena desde la posiciòn Indicada.
+
+int indexOf(String cadena): Indica En Què Posiciòn O Indice Se Encuentra
+El Caràcter (O Cadena) Indicado Por Primera Vez, Buscando Desde El Principio.
+
+int lastIndexOf(String cadena): Indica En Què Posiciòn O Indice Se Encuentra
+El Caràcter (O Cadena) Indicado Por Primera Vez, Buscando Desde El Final.
+
+boolean startsWith(String prefijo): Dice Si La Cadena Comienza Con El Prefijo
+Indicado.
+
+boolean endsWith(String sufijo): Dice Si La Cadena Termina Con El Sufijo
+Indicado.
+
+String[] split(String patron): Divide La Cadena En Varias Subcadenas Utilizando
+El Patròn Indicado Como Separador.
+--------------------------------------------------------------------------------

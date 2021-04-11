@@ -1,0 +1,41 @@
+PRIMITIVOS =>
+    ENTEROS:
+        byte (-128 hasta 127)
+        short (-32,768 hasta 32,767)
+        int (-2,147,483,648 hasta 2,147,483,647)
+        long (-9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807)
+
+    DECIMALES(Punto Flotante):
+        float (1.4E-45 hasta 3.4028235E38)
+        double (4.9E-324 hasta 1.7976931348623157E308)
+
+    CHARACTER:
+        char (Un Solo Caracter)
+
+    BOOLEAN:
+        boolean (true | false)
+------------------------------------------------------------------------
+
+VALORES POR DEFECTO =>
+Los Valores Por Defecto De Los Tipos De Datos
+Primitivos Se Inicializan Automaticamente En "0 (Cero)"
+O Si Son De Punto Flotante Se Inicializan En "0.0", Siempre
+Y Cuando Sean Variables Globales, Es Decir,
+Que Pertenezcan A La Clase, Pero Si Son Locales
+O Pertenecen A Un Mètodo En Particular Incluyendo
+El Mètodo Main, Se Deben Inicializar, Por Que Si No
+Muestra Un Error De Inicializaciòn Al No Tener
+Ningùn Valor Interno En El Identificador De La Variable
+Y No Permite Correr El Programa.
+------------------------------------------------------------------------
+
+COMPARACIÓN (Condicionales) =>
+Los Tipos De Datos Primitivos No Se Pueden
+Comparar Con La Palabra null, Ejemplo:
+
+int nota = 0;
+if(nota == null) {}  ===== ERROR =====
+
+Pero Si El Tipo De Dato Es Wrapper(Objeto) Si Es
+Posible Comparar Con La Palabra null.
+------------------------------------------------------------------------

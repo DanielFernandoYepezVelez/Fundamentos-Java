@@ -1,0 +1,42 @@
+VALORES POR DEFECTO =>
+Los Valores Por Defecto De Los Tipos De Datos
+Wrapper U Objeto Se Inicializan Automaticamente En NULL
+Siempre Y Cuando Sean Variables Globales, Es Decir,
+Que Pertenezcan A La Clase, Pero Si Son Locales
+O Pertenecen A Un Mètodo En Particular Incluyendo
+El Mètodo Main, Se Deben Inicializar, Por Que Si No
+Muestra Un Error De Inicializaciòn Al No Tener
+Ningùn Valor Interno En El Identificador De La Variable
+Y No Permite Correr El Programa.
+------------------------------------------------------------------------
+
+COMPARACIÓN (Condicionales) =>
+Puedo Utilizar Todos Los Operadores Relacionales
+Con Los Wrappers Y Funcionan Correctamente, Por Que
+De Manera Implicita, Estos Envoltorios Aplican El
+AutoUnBoxing Es Decir, Pasan De Objeto A Primitivo
+Solo Para Realizar La Relaciòn Del Respectivo
+Operador; Excepto El Operador (==) Que Este
+Si Compara Por Referencia.
+
+Tenemos Dos Opciones: Comparar Por Valor
+Con El (equals) o Comparar El Valor Con El
+(==) Pero Los Wrapper Se Les Aplica Un
+AutoUnBoxing Explicito Con El Mètodo
+intValue() o Para Su Respectivo Método Primitivo
+(byteValue, shortValue, etc).
+------------------------------------------------------------------------
+
+Con El Wrapper Boolean El (==) Compara Por Valor
+Y No Por Referencia; Para Tener En Cuenta.
+
+Con El Wrapper Character El (==) Compara Por Valor
+Y No Por Referencia; Para Tener En Cuenta.
+------------------------------------------------------------------------
+
+COMPARABLE (compareTo) =>
+La Interface Comparable Se Puede Utilizar
+En Los Elementos Que Tengan Un Tipo De Dato
+Wrapper, En Los Tipos De Datos Primitivos
+No Es Posible.
+------------------------------------------------------------------------
