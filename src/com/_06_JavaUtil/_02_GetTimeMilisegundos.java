@@ -1,4 +1,4 @@
-package com._06_JavaUtilDate;
+package com._06_JavaUtil;
 
 import java.util.Date;
 

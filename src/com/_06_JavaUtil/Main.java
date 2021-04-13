@@ -1,4 +1,4 @@
-package com._06_JavaUtilDate;
+package com._06_JavaUtil;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,7 @@ public class Main {
         _03_FechaPasadaFutura.fechaCalendar();
         _04_StringDateParse.StringAdate();
         _05_CompararFechas.dateCompare();
+        _06_ClaseScanner.scanner();
 
     }
 }
