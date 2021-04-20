@@ -19,12 +19,16 @@ public class _03_int {
          * Sigue Mostrandome El Error, Por Ende Debo Agregar La Literal Al Final Del Valor De Tipo Long O Double */
         int excederInt = (int) 2147483649L;
 
+        /* Nota = Los Tipos De Datos Int Soportan Los Valores Char, Por Que Lo Toma No Como Simbolo, Sino Como Decimal */
+        int simboloChar = '!';
+
         System.out.println("\n========= TIPO DE DATO PRIMITIVO \"int\" =========");
         System.out.println("Tipo int Corresponde En Bits A: " + Integer.SIZE);
         System.out.println("Tipo int Corresponde En Bytes A: " + Integer.BYTES);
         System.out.println("Nùmero Minimo Aceptado: " + Integer.MIN_VALUE);
         System.out.println("Nùmero Maximo Aceptado: " + Integer.MAX_VALUE);
         System.out.println("Variable valorNumeroInt = " + valorNumeroInt);
+        System.out.println("Variable valorCharDecimal = " + simboloChar);
         System.out.println("El Valor Es Muy Grande Para Lo Que Soporta El Tipo INT excederInt = " + excederInt + " Obtenemos Valores Con Imprecisiones Por Que Perdemos Bits");
     }
 }
