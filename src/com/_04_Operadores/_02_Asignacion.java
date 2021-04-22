@@ -6,6 +6,9 @@ public class _02_Asignacion {
 
         System.out.println("\n========== OPERADORES DE ASIGNACIÒN ==========");
         System.out.println("i = " + i);
+        
+        var isTrue = i == 5;
+        System.out.println("i == 5 " + isTrue);
 
         i += 4;
         System.out.println("i += " + i);
