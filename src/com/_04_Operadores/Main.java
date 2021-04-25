@@ -16,6 +16,5 @@ public class Main {
         _11_InstanceOf.instancia();
         _12_InstanceOfGeneral.tiposGlobales();
         _13_CaracteresEspeciales.especiales();
-
     }
 }
