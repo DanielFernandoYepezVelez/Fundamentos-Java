@@ -1,0 +1,7 @@
+CLASES =>
+Las Clases Son El Molde O Lienzo De Donde Van A Nacer
+Posteriormente Nuestros Objetos O Instancias, Pero
+No Debemos Perder De Vista, Que Una Clase Creada
+Es Un Nuevo Tipos De Dato Existente Que Puede Ser
+Asignado A Una Propiedad O Para El Retorno De
+Un Método.
