@@ -2,6 +2,9 @@ package com._02_Variables._01_TiposPrimitivos._05_Dinamico;
 
 public class _08_var {
     public static void ValoresVar() {
+        /* var => Solo Funciona Para Variables Locales, Para Variables De Clase (Atributos) O
+        Para Definir Parametros No Es Posible */
+
         // Tipo De Dato Inferencial
         var valorVar = 555f;
         var valorUnicode = '\u0040'; // Valor Unicode

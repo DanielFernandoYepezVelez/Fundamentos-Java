@@ -1,19 +1,23 @@
 PRIMITIVOS =>
-    ENTEROS:
+    ENTEROS =>
         byte (-128 hasta 127)
         short (-32,768 hasta 32,767)
         int (-2,147,483,648 hasta 2,147,483,647)
         long (-9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807)
 
-    DECIMALES(Punto Flotante):
+    DECIMALES(Punto Flotante) =>
         float (1.4E-45 hasta 3.4028235E38)
         double (4.9E-324 hasta 1.7976931348623157E308)
 
-    CHARACTER:
+    CHARACTER =>
         char (Un Solo Caracter)
 
-    BOOLEAN:
+    BOOLEAN =>
         boolean (true | false)
+
+    VAR =>
+        Solo Funciona Para Variables Locales, Para Variables De Clase (Atributos) O
+        Para Definir Parametros No Es Posible
 ------------------------------------------------------------------------
 
 VALORES POR DEFECTO =>
