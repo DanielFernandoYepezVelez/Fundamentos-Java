@@ -28,7 +28,9 @@ public class _01_GenericosParametros {
         clientesLista.forEach(System.out::println);
         enterosLista.forEach(System.out::println);
 
-        List<String> nombres = fromArrayToList(new String[]{"Bea", "Max", "Luz", "Maxi"}, enterosArreglo);
+        String[] nombresArreglo = {"Bea", "Max", "Luz", "Maxi"};
+        List<String> nombres = fromArrayToList(nombresArreglo, enterosArreglo);
+        
         nombres.forEach(System.out::println);
     }
 
@@ -40,9 +42,10 @@ public class _01_GenericosParametros {
         return Arrays.asList(general);
     }
 
-    /* Definimos Un Método Estatico Con DOS Tipo De Dato Generico (PUEDE RECIBIR Y RETORNAR CUALQUIER TIPO DE DATO)
+    /* Definimos Un Método Estatico Con DOS Tipos De Datos Genericos (PUEDE RECIBIR Y RETORNAR CUALQUIER TIPO DE DATO)
     Y Dichos Tipos De Dato Genericos Vienen Como Parametros */
     // OJO!! <T> => Tipo De Dato Generico Para El Primer Parametro Definido T[], Pero, Retorna Una Lista De Dicho Tipo De Dato Generico List<T>.
+    // OJO!! <G> => Tipo De Dato Generico Para El Segundo Parametro Definido G[], Pero, Retorna Una Lista Del Primer Tipo De Dato Generico List<T>.
     public static <T, G> List<T> fromArrayToList(T[] parametroGeneral, G[] parametroGeneral2) {
         System.out.println(" ");
         for (G elemento: parametroGeneral2) {
