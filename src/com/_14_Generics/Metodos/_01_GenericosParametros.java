@@ -34,6 +34,7 @@ public class _01_GenericosParametros {
 
     /* Definimos Un Método Estatico Con UN Tipo De Dato Generico (PUEDE RECIBIR Y RETORNAR CUALQUIER TIPO DE DATO) 
     Y Dicho Tipo De Dato Generico Viene Como Parametro */
+    // OJO!! <T> => Tipo De Dato Generico Para El Primer Parametro Definido T[], Pero, Retorna Una Lista De Dicho Tipo De Dato Generico List<T>.
     public static <T> List<T> fromArrayToList(T[] general) {
         /** Recibe Un Arreglo Generico Y Lo Convierte En Una Lista */
         return Arrays.asList(general);
@@ -41,6 +42,7 @@ public class _01_GenericosParametros {
 
     /* Definimos Un Método Estatico Con DOS Tipo De Dato Generico (PUEDE RECIBIR Y RETORNAR CUALQUIER TIPO DE DATO)
     Y Dichos Tipos De Dato Genericos Vienen Como Parametros */
+    // OJO!! <T> => Tipo De Dato Generico Para El Primer Parametro Definido T[], Pero, Retorna Una Lista De Dicho Tipo De Dato Generico List<T>.
     public static <T, G> List<T> fromArrayToList(T[] parametroGeneral, G[] parametroGeneral2) {
         System.out.println(" ");
         for (G elemento: parametroGeneral2) {
