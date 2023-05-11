@@ -17,14 +17,14 @@ public class _01_GenericosParametros {
         //Cliente andres = clientes.get(0);
         Cliente andres = clientes.iterator().next();
 
-        Cliente[] clientesArreglo = { new Cliente("Luciano", "Fernando"),
-                                      new Cliente("Andres", "Camilo")};
+        Cliente[] clientesArreglo = { new Cliente("Luciano", "Fernando"), new Cliente("Andres", "Camilo")};
         Integer[] enterosArreglo = {1, 2, 3};
 
-        /** Método Stático fromArrayToList */
+        /** Método Stático Generico fromArrayToList */
         List<Cliente> clientesLista = fromArrayToList(clientesArreglo);
         List<Integer> enterosLista = fromArrayToList(enterosArreglo);
 
+        // Métodos De Referencia
         clientesLista.forEach(System.out::println);
         enterosLista.forEach(System.out::println);
 
@@ -32,8 +32,9 @@ public class _01_GenericosParametros {
         nombres.forEach(System.out::println);
     }
 
+    // Definimos Un Método Estatico Con Un Tipo De Dato Generico (PUEDE RECIBIR Y RETORNAR CUALQUIER TIPO DE DATO)
     public static <T> List<T> fromArrayToList(T[] general) {
-        /** Recibe Un Arreglo Y Lo Convierte En Una Lista */
+        /** Recibe Un Arreglo Generico Y Lo Convierte En Una Lista */
         return Arrays.asList(general);
     }
 
